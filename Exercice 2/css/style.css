@@ -1,0 +1,140 @@
+﻿/*configuration du conteneur*/
+#content
+{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+	
+}
+
+
+/*css pour la partie appartement*/
+/*responsive with flexbox*/
+#appartement
+{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+	font-size: 60%;
+}
+
+/*reglage tes mignature des 3 appartement disponible*/
+#app1
+{
+width: 196px;
+height: 89px;
+background: url("../sources/im1.jpg");
+background-size: 100% 100%;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+margin: 1cm 1cm 1cm 1cm;
+}
+#app2
+{
+width: 196px;
+height: 89px;
+background: url("../sources/im2.jpg");
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}
+#app3
+{
+width: 196px;
+height: 89px;
+background: url("../sources/im3.jpg");
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}
+
+
+/*css pour la partie magasin*/
+/*responsive with flexbox*/
+#magasin
+{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+	font-size: 60%;
+}
+
+/*reglage tes mignature des 3 magasin disponible*/
+#ma1
+{
+width: 196px;
+height: 89px;
+background: url("../sources/ma1.jpg") ;
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}
+#ma2
+{
+width: 196px;
+height: 89px;
+background: url("../sources/ma2.jpg") ;
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}
+#ma3
+{
+width: 196px;
+height: 89px;
+background: url("../sources/ma3.jpg") ;
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}
+
+/*css pour la partie villa*/
+/*responsive with flexbox*/
+#villa
+{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+	font-size: 60%;
+}
+
+/*reglage tes mignature des 3 villa disponible*/
+#vil1
+{
+width: 196px;
+height: 89px;
+background: url("../sources/vil1.jpg");
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}
+#vil2
+{
+width: 196px;
+height: 89px;
+background: url("../sources/vil2.jpg");
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}
+#vil3
+{
+width: 196px;
+height: 89px;
+background: url("../sources/vil3.jpg");
+background-size: 100% 100%;
+margin: 1cm 1cm 1cm 1cm;
+border: 2px solid black;
+border-radius: 0px 25px 25px 25px;
+}

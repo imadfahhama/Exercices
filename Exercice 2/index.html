@@ -1,0 +1,113 @@
+<html>
+<head>
+	<meta charset="UTF-8" /><!-- encodage-->
+	
+	<title>IMMobilKom</title><!--titre que j'ai choisi moi meme pour cette exercice-->
+	
+	<img src="sources/logo.png" width="100%" height="100px" alt="Logo IMMobilKom"><!--Logo du header-->
+	
+	 <link rel="stylesheet" type="text/css" href="css/style.css"><!--lier le style general de la page-->
+	 <link rel="stylesheet" type="text/css" href="css/popup.css"><!-- lier le style de la popup des details produit-->
+	 
+	 <script src="js/general.js"></script><!--script pour afficher les details sur la popup-->
+</head>
+<body>
+<!--nom, prix, localisation, caractéristiques, loisirs-->
+<div id="content"> 
+Les Appartements:
+<div id="appartement">
+	<a href="#masque" onclick="detail(1,1);">
+    <div class="element" id="app1">Appartement 1
+	</br>Prix: 1500DH
+	</br>Localisation: Casablanca
+	</br>caractéristiques: 60M²
+	</div>
+	</a>
+	<a href="#masque" onclick="detail(1,2);">
+    <div class="element" id="app2">Appartement 2
+	</br>Prix: 1600DH
+	</br>Localisation: AGADIR
+	</br>caractéristiques: 80M²
+	</div>
+	</a>
+	<a href="#masque" onclick="detail(1,3);">
+    <div class="element" id="app3">Appartement 3
+	</br>Prix: 1700DH
+	</br>Localisation: RABAT
+	</br>caractéristiques: 90M²
+	</div>
+	</a>
+</div>
+Les magasins:
+<div id="magasin">
+	<a href="#masque" onclick="detail(2,1);">
+    <div class="element" id="ma1">Magasin 1
+	</br>Prix: 10000DH
+	</br>Localisation: RABAT
+	</br>caractéristiques: 930M²
+	</div>
+	</a>
+	<a href="#masque" onclick="detail(2,2);">
+    <div class="element" id="ma2">Magasin 2
+	</br>Prix: 17000DH
+	</br>Localisation: casa
+	</br>caractéristiques: 910M²
+	</div>
+	</a>
+	<a href="#masque" onclick="detail(2,3);">
+    <div class="element" id="ma3">Magasin 3
+	</br>Prix: 16000DH
+	</br>Localisation: FES
+	</br>caractéristiques: 920M²
+	</div>
+	</a>
+</div>
+
+Les villas:
+<div id="villa">
+	<a href="#masque" onclick="detail(3,1);">
+    <div class="element" id="vil1">Ville 1
+	</br>Prix: 13000DH
+	</br>Localisation: Casablanca
+	</br>caractéristiques: 400M²
+	</div>
+	</a>
+	<a href="#masque" onclick="detail(3,2);">
+    <div class="element" id="vil2">Ville 2
+	</br>Prix: 18000DH
+	</br>Localisation: RABAT
+	</br>caractéristiques: 300M²
+	</div>
+	</a>
+	<a href="#masque" onclick="detail(3,3);">
+    <div class="element" id="vil3">Ville 3
+	</br>Prix: 19000DH
+	</br>Localisation: TANGER
+	</br>caractéristiques: 200M²
+	</div>
+	</a>
+</div>
+</div>
+
+	<!-- popup pour afficher les details produit-->
+	<div id="masque">
+	<div class="fenetre">
+	<a class="fermer" href="#"><img alt="Buton fermer la fenêtre" width="40px" height="40px" title="Fermer la fenêtre" class="btn-fermer" src="sources/close.png"/></a>
+		<div>
+		<!-- Titre-->
+          <h2 id="titredetail"></h2>
+        </div>
+		</br>
+		<div class="row" id="contenudetail">
+		
+		</div>
+	</div>
+	</div>
+
+</body>
+ <footer>
+  <p>Réalisé par: Imad FAHHAMA</p>
+  <p>Contact: <a href="mailto:ifahhama@gmail.com">
+  ifahhama@gmail.com</a>.</p>
+</footer> 
+</html>
